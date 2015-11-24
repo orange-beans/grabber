@@ -20,7 +20,6 @@ USAGE EXAMPLE:
   grab_page(site_url, $_jQuery_selector, function($items) {
     var
       items = [];
-	  
     $items.forEach(function(item, idx) {
       items.push({
         index   : idx + 1,
@@ -34,6 +33,6 @@ USAGE EXAMPLE:
 // Grab multiple pages
 //  
   grab_multi(site_url_list, $_jQuery_selector, concurrent_limit, function($items, idx) {
-	// Do something with $items and its corresponding index
-	// ......
+    // Do something with $items and its corresponding index
+    // ......
   });
