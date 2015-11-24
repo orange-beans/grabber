@@ -1,0 +1,19 @@
+{
+  "name": "grabber",
+  "version": "0.0.1",
+  "description": "Grabbing webpage content in either jQuery or JSON format\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C collection or JSON depending on your choices.",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.4.2",
+    "cheerio": "^0.19.0",
+    "superagent": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grabber"
+  ],
+  "author": "orange-beans",
+  "license": "MIT"
+}
