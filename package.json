@@ -1,7 +1,7 @@
 {
-  "name": "grabber",
-  "version": "0.0.1",
-  "description": "Grabbing webpage content in either jQuery or JSON format\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C collection or JSON depending on your choices.",
+  "name": "orz-grabber",
+  "version": "0.0.2",
+  "description": "Grabbing webpage content in either jQuery or JSON format collection or JSON depending on your choices.",
   "main": "index.js",
   "dependencies": {
     "async": "^1.4.2",

@@ -1,4 +1,4 @@
-Grabber is a node.js module used to grab webpage content. 
+orz-grabber is a node.js module used to grab webpage content. 
 
 You can either grab a single webpage or multiple webpage, in jQuery collection or JSON format according to your needs.
 
