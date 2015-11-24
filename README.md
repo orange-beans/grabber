@@ -7,7 +7,7 @@ Some websites limit the concurrent url requests to certain number; with *orz-gra
 
 # To Install
 ```bash
-npm install orz-grabber
+$ npm install orz-grabber
 ```
 # To Use
 ```javascript
@@ -15,28 +15,27 @@ var grabber = requier('orz-grabber');
 ```
 
 # Usage Example
-*Print out list of article titles*
+*Print out list of article titles:*
 
 ```javascript
-  grab_page(site_url, $_jQuery_selector, function($items) {
-    var
-      items = [];
-    $items.forEach(function(item, idx) {
-      items.push({
-        index   : idx + 1,
-        title   : item.attr('title'),
-        href    : item.attr('href')
-      });
-      console.log(items);
-    });
-  });
+grab_page(site_url, $_jQuery_selector, function($items) {
+	var items = [];
+	$items.forEach(function(item, idx) {
+	  items.push({
+		index   : idx + 1,
+		title   : item.attr('title'),
+		href    : item.attr('href')
+	  });
+	  console.log(items);
+	});
+});
 ```
 
-*Grab multiple pages*  
+*Grab multiple pages:*  
 
 ```javascript
-  grab_multi(site_url_list, $_jQuery_selector, concurrent_limit, function($items, idx) {
-	// Do something with $items and its corresponding index
-	// ......
-  });
+grab_multi(site_url_list, $_jQuery_selector, concurrent_limit, function($items, idx) {
+  // Do something with $items and its corresponding index
+  // ......
+});
 ```
