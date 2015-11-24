@@ -20,6 +20,7 @@ USAGE EXAMPLE:
   grab_page(site_url, $_jQuery_selector, function($items) {
     var
       items = [];
+      
     $items.forEach(function(item, idx) {
       items.push({
         index   : idx + 1,
