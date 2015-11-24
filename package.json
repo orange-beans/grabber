@@ -1,6 +1,6 @@
 {
   "name": "orz-grabber",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Grabbing webpage content in either jQuery or JSON format collection or JSON depending on your choices.",
   "main": "index.js",
   "dependencies": {
