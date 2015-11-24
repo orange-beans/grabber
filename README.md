@@ -6,10 +6,13 @@ You can either grab a single webpage or multiple webpage, in jQuery collection o
 Some websites limit the concurrent url requests to certain number; with *orz-grabber* you can set the concurrent url requests limits, and orz-grabber will get back to you once all requests have been completed. 
 
 # To Install
+```bash
 npm install orz-grabber
-
+```
 # To Use
+```javascript
 var grabber = requier('orz-grabber');
+```
 
 # Usage Example
 *Print out list of article titles*
